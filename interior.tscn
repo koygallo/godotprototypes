@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bd51gy1285gv2"]
+
+[ext_resource type="Texture2D" uid="uid://oni518e0oryl" path="res://Jelly.png" id="1_qh517"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_o3y2l"]
+
+[node name="interior" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(569.25, 147.5)
+scale = Vector2(0.498555, 0.502907)
+texture = ExtResource("1_qh517")
+hframes = 6
+vframes = 5
+script = ExtResource("2_o3y2l")
